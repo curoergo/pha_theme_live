@@ -2,7 +2,7 @@
 
   name        = PHA Theme 
   description = Based on Stripy sage theme.
-  module      = stripy
+  module      = hwpi_basetheme
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
