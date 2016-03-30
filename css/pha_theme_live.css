@@ -1,6 +1,7 @@
 /** REMOVE WHEN THE SITE INFO VERTICAL ALIGN MIDDLE ISSUE IS RESOLVED **/
 .front #columns {width: 100%}
 #layout_3_1_overlay .slide img {width: 100%}
+#header-container {width: 100%}
 img.image-style-os-files-xxlarge {width: 100%}
 
 #boxes-box-site_info {
