@@ -4,7 +4,7 @@
   name        = PHA Theme
   description = A clean fixed layout design - white background with a single orange stripe for the menu area.
   core        = 7.x
-  base theme  = hwpi_basetheme
+  module  = hwpi_basetheme
   release     = 7.x-3.x
   engine      = phptemplate
   screenshot  = screenshot.png
