@@ -1,88 +1,16 @@
-<<<<<<< HEAD
-=======
-/** REMOVE WHEN THE SITE INFO VERTICAL ALIGN MIDDLE ISSUE IS RESOLVED **/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -91,29 +19,15 @@ video {
     vertical-align: baseline;
 }
 
-.front #columns {
-    width: 100%
-}
 
-#layout_3_1_overlay .slide img {
-    width: 100%;
-}
+.front #columns {width: 100%}
+#layout_3_1_overlay .slide img {width: 100%;}
+#header-container {width: 100%; background-color: #ffffff}
+img.image-style-os-files-xxlarge {width: 100%; float: right; margin-right:0px; padding-bottom: 15px}
 
-#header-container {
-    width: 100%;
-    background-color: #ffffff
-}
+#menu-bar {background-color: #C0C0C0}
 
-img.image-style-os-files-xxlarge {
-    width: 100%;
-    float: right;
-    margin-right: 0px;
-    padding-bottom: 15px
-}
 
-#menu-bar {
-    background-color: #C0C0C0
-}
 
 #menu-bar ul.nice-menu a,
 #menu-bar ul.nice-menu a:visited {
@@ -123,94 +37,39 @@ img.image-style-os-files-xxlarge {
     font-family: copperplate
 }
 
-.front.branding-container,
-#header-container,
-#columns,
-#menu-bar #block-os-primary-menu,
-#footer.gpanel,
-.region-footer,
-.message-inner,
-#powerby-login {
+.front.branding-container, #header-container, #columns, #menu-bar #block-os-primary-menu, #footer.gpanel, .region-footer, .message-inner, #powerby-login {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
     margin-top: 0
-}
 
-.front.region-inner {
+    }
+
+.front.region-inner{
     padding-top: 0px
 }
 
-div#page-wrapper {
-    background-color: #A0DBA1
-}
 
-li.rslides1_s1 {
-    background: none !important
-}
 
-li.rslides1_s2 {
-    background: none !important
-}
+div#page-wrapper {background-color: #A0DBA1}
 
-li.rslides1_s3 {
-    background: none !important
-}
 
-li.rslides1_s4 {
-    background: none !important
-}
+li.rslides1_s1 {background: none !important}
+li.rslides1_s2 {background: none !important}
+li.rslides1_s3 {background: none !important}
+li.rslides1_s4 {background: none !important}
+li.rslides1_s5 {background: none !important}
+li.rslides1_s6 {background: none !important}
+li.rslides1_s7 {background: none !important}
+li.rslides1_s8 {background: none !important}
+li.rslides1_s9 {background: none !important}
+li.rslides1_s10 {background: none !important}
+li.rslides1_s11 {background: none !important}
+li.rslides1_s12 {background: none !important}
 
-li.rslides1_s5 {
-    background: none !important
-}
-
-li.rslides1_s6 {
-    background: none !important
-}
-
-li.rslides1_s7 {
-    background: none !important
-}
-
-li.rslides1_s8 {
-    background: none !important
-}
-
-li.rslides1_s9 {
-    background: none !important
-}
-
-li.rslides1_s10 {
-    background: none !important
-}
-
-li.rslides1_s11 {
-    background: none !important
-}
-
-li.rslides1_s12 {
-    background: none !important
-}
-
-#layout_3_1_overlay .rslides_tabs {
-    bottom: -2%;
-    right: 32%
-}
-
-.rslides_tabs li.rslides_here a {
-    color: #6699ff
-}
-
-.rslides_tabs a,
-.rslides_tabs a:visited {
-    color: #C0C0C0;
-    font-size: 50px
-}
-
-a.rslides_nav {
-    display: none
-}
+#layout_3_1_overlay .rslides_tabs{bottom: -2%; right: 32%} .rslides_tabs li.rslides_here a{color: #6699ff} 
+.rslides_tabs a, .rslides_tabs a:visited{color: #ffffff; font-size: 50px}
+a.rslides_nav{display: none}
 
 .rslides_tab li {
     background: none !important;
@@ -219,166 +78,16 @@ a.rslides_nav {
     list-style-image: none !important;
 }
 
-p {
-    width: 75%;
-    margin-left: 150px;
-    text-align: left;
-    margin-top: 50px;
+
+
+div#boxes-box-1456322187 {
+    width: 75%; 
+    margin-left: 150px; 
+    text-align: left; 
+    margin-top:50px; 
+background-color: #ffffff;
+padding-left: 15px;
+padding-right: 15px;
 }
 
-#content-panels .block-content,
-#content-panels .boxes-box-content,
-#content-panels #block-os-search-db-site-search.no-title #search-block-form {
-    background-color: #ffffff;
-}
-
-#boxes-box-site_info {
-    padding-top: 0;
-}
-
-#branding_header,
-#branding_footer,
-#search-block-form .form-item label {
-    display: none;
-}
-
-body {
-    background: #FFF;
-    color: #282828;
-    font-family: georgia, Arial, Verdana, sans-serif;
-    font-size: 1em;
-}
-
-.biblio-title a,
-.biblio-title-chicago a,
-a,
-a:visited {
-    color: #627840;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: #8c2e08;
-}
-
-.title a,
-#top a,
-.views-field-title a,
-#block-os-primary-menu a {
-    font-style: normal;
-    text-decoration: none;
-}
-
-h1#page-title,
-h1,
-h2,
-h3 {
-    font-weight: normal;
-}
-
-
-/* HEADER ELEMENTS */
-
-.region-header-third ul.nice-menu a {
-    font: normal 1.2em georgia, sans-serif;
-    text-transform: none;
-}
-
-#header-container h1 {
-    font-size: 31px;
-    line-height: 1em;
-}
-
-#header-container h1,
-#header-container h2,
-#header-container h3,
-#header-container a,
-#header-container a:visited,
-#header-container h1 a,
-#header-container h1 a:visited {
-    color: #282828;
-}
-
-#header-container h1 a,
-#header-container h1 a:visited {
-    text-decoration: none;
-}
-
-#boxes-box-site_info h2 {
-    font-size: 1.5em;
-    font-style: normal;
-}
-
-#header-container a,
-#header-container a:visited {
-    text-decoration: none;
-}
-
-#menu-bar {
-    background: rgb(125, 134, 111);
-    background: -moz-linear-gradient(270deg, rgb(125, 134, 111) 30%, rgb(151, 160, 137) 70%);
-    background: -webkit-linear-gradient(270deg, rgb(125, 134, 111) 30%, rgb(151, 160, 137) 70%);
-    background: -o-linear-gradient(270deg, rgb(125, 134, 111) 30%, rgb(151, 160, 137) 70%);
-    background: -ms-linear-gradient(270deg, rgb(125, 134, 111) 30%, rgb(151, 160, 137) 70%);
-    background: linear-gradient(0deg, rgb(125, 134, 111) 30%, rgb(151, 160, 137) 70%);
-}
-
-#menu-bar li {
-    text-transform: uppercase;
-}
-
-#menu-bar ul.nice-menu a,
-#menu-bar ul.nice-menu a:visited {
-    color: #f5f5d8;
-    text-decoration: none;
-    font-size: 1.4em;
-}
-
-#menu-bar ul.nice-menu .menuparent.over > a,
-#menu-bar ul.nice-menu .menuparent a:hover,
-#menu-bar ul.nice-menu .menuparent a.active,
-#menu-bar ul.nice-menu a.active,
-#menu-bar ul.nice-menu a:hover {
-    color: #F9E433;
-    text-decoration: none;
-    background: none;
-}
-
-#menu-bar ul.nice-menu .menuparent > a:before {
-    background-position: 0px -566px;
-}
-
-
-/** NICE MENUS **/
-
-#menu-bar ul.nice-menu ul {
-    border: none;
-    background: #777;
-}
-
-#menu-bar ul.nice-menu ul li {
-    background: #777;
-}
-
-#menu-bar ul.nice-menu .menuparent ul li a:hover,
-#menu-bar ul.nice-menu .menuparent ul li a.active,
-#menu-bar ul.nice-menu ul li a {
-    color: #FFF;
-    background: #777;
-}
-
-#search-block-form input.form-submit,
-#search-block-form #edit-submit,
-#search-form #edit-submit {
-    background-position: 2px -440px;
-    background-color: #555;
-}
-
-
-/* test of code updates */
-
-#boxes-box-1458163296 {
-    color: #666;
-    background: #eee;
-}
->>>>>>> origin/master
+p{padding: 10px}
