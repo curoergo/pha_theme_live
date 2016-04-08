@@ -1,6 +1,6 @@
 ;----------// Theme Information
 
-  name        = PHA Theme 
+  name        = PHA Theme Test
   description = Based on Stripy sage theme.
   module      = stripy
   screenshot  = screenshot.png
