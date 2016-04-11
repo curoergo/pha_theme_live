@@ -1,8 +1,8 @@
 ;----------// Theme Information
 
   name        = PHA Theme Test
-  description = Based on Stripy sage theme.
-  module      = stripy
+  description = Based on Classic theme.
+  module      = hwpi_classic
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
