@@ -127,22 +127,13 @@ div#block-boxes-1456322187 {background: #A0DBA1; padding: 50px; padding-top: 75p
 .nav .block{margin-left: 20px !important;}
 
 footer#footer {
- background: url(http://planetaryhealthalliance.org/files/pha/files/rsz_shutterstock_170874053.jpg?m=1460383835); 
+ background: #C0C0C0; 
 margin-top: -10%;
 }
 
 section#block-boxes-hwp-personal-contact-html {
-    color: white; 
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-width: 1px; 
- text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-font-weight: bolder;
-font-size: 25px;
+    color: #000000; 
+
 font-family: copperplate gothic bold;
 
 }
@@ -150,48 +141,23 @@ font-family: copperplate gothic bold;
 
 
 a.feed-icon {
-    color: #ffffff; 
+    color: #000000; 
 font-family:copperplate gothic bold;
-font-size: 20px;
--webkit-text-stroke-width: ;
--webkit-text-stroke-color: black;
- text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+
 }
 
 .boxes-box-content {}
 
 div#boxes-box-1458163296 {
-    color: #ffffff;
-    -webkit-text-stroke-width: .5px; 
--webkit-text-stroke-color: black;
- text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-font-weight: bolder;
-font-size: 20px;
-font-family: georgia;
+    color: #000000;
+font-family:copperplate gothic bold;
     }
 
-span {}
+
 
 div#boxes-box-1458235447 {
-    color: #ffffff;   
-    -webkit-text-stroke-width: 1px; 
-    -webkit-text-stroke-color: black;
-     text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    color: #000000;   
+    
 }
 
        .sidebar .block, .front #content-column .block, #content-column .block.block-boxes-os_boxes_columns .block, .node-person .block-inner, .comment-wrapper
