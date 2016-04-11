@@ -196,3 +196,18 @@ div#boxes-box-1458235447 {
 
        .sidebar .block, .front #content-column .block, #content-column .block.block-boxes-os_boxes_columns .block, .node-person .block-inner, .comment-wrapper
 {border-top: transparent}
+
+#branding_header .branding-container{display: none}
+
+
+#layout_3_1_overlay .rslides_tabs{bottom: -1%}
+
+div#boxes-box-1456322187 {
+    width: 75%; 
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: left; 
+    margin-top: -4%;} 
+
+
+#columns .region-inner{margin-top: -3%}
