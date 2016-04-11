@@ -193,3 +193,6 @@ div#boxes-box-1458235447 {
       -1px 1px 0 #000,
        1px 1px 0 #000;
 }
+
+       .sidebar .block, .front #content-column .block, #content-column .block.block-boxes-os_boxes_columns .block, .node-person .block-inner, .comment-wrapper
+{border-top: transparent}
