@@ -126,9 +126,14 @@ div#block-boxes-1456322187 {background: #A0DBA1; padding: 50px; padding-top: 75p
 
 .nav .block{margin-left: 20px !important;}
 
-footer#footer {
+.front footer#footer {
  background: #C0C0C0; 
 margin-top: -10%;
+}
+
+footer#footer {
+ background: url(http://planetaryhealthalliance.org/files/pha/files/rsz_shutterstock_170874053.jpg?m=1460383835); 
+margin-top: -1%;
 }
 
 section#block-boxes-hwp-personal-contact-html {
