@@ -187,9 +187,14 @@ ul {margin-left: 75px}
 
 p {font-family: georgia;line-height: 1.4;}
 
+img.image-style-os-files-xxlarge {margin-top: 50px; margin-right: 50px}
+
+.front div#boxes-box-1458235447 a{font-family: georgia; font-size: 20px; margin-left: -3%}
+
 .front h2.block-title {text-transform: none; 
-    font-size: 30px; 
-    font-family: copperplate !important; 
+    font-size: 20px; 
+    font-family: georgia !important; 
     margin-bottom: 0px;
-  }
+    margin-top: 17px;
+   }
 
