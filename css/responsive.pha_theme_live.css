@@ -186,3 +186,9 @@ div#boxes-box-1456322187 {
 ul {margin-left: 75px}
 
 p {font-family: georgia;line-height: 1.4;}
+
+.front h2.block-title {text-transform: none; 
+    font-size: 30px; 
+    font-family: copperplate !important; 
+    margin-bottom: 0px;
+  }
