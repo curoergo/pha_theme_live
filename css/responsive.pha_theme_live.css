@@ -10,7 +10,7 @@ div#block-boxes-1456322187 {margin-left: -55px;}}
 
 section#block-boxes-hwp-personal-contact-html {margin-left: 8%;}
 
-img.image-style-os-files-xxlarge {margin-top: -15px; width: 80%; float: left; position: relative; left: 10%}
+#footer img.image-style-os-files-xxlarge {margin-top: -15px; max-width: 200px; float: left; position: relative; left: 10%}
 
 .front div#boxes-box-1458235447 a{font-family: georgia; font-size: 20px; margin-left: 8%}
 
@@ -25,16 +25,24 @@ div#boxes-box-1458237255 {
 
 div#block-boxes-1453068283 {margin-left: 10% !important}
 
+@media (min-width:320px){
+
 div#block-boxes-1460120862 {
     display: none;
 }
-
 .region.region-header-first {
-    min-width: 400px !important;
+    min-width: 350px !important;
     display: block !important;
 }
+}
 
-div#block-boxes-1460120887 {}
+@media (min-width:700px){
+
+div#block-boxes-1460120862 {
+    display: block;
+}
+}
+
 
 @media (max-width: 1008px) {
     
