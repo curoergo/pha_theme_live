@@ -25,6 +25,17 @@ div#boxes-box-1458237255 {
 
 div#block-boxes-1453068283 {margin-left: 10% !important}
 
+div#block-boxes-1460120862 {
+    display: none;
+}
+
+.region.region-header-first {
+    min-width: 400px !important;
+    display: block !important;
+}
+
+div#block-boxes-1460120887 {}
+
 @media (max-width: 1008px) {
     
 .container {width:100% !important;}
