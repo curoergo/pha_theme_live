@@ -1,0 +1,68 @@
+/* Temporary css for test slider */
+
+.page-node-686016 #content-column .content-inner {
+    padding: 0px;
+}
+
+.page-node-686016 footer#footer,
+.page-node-686016 #branding_footer,
+.page-node-686016 h1#page-title,
+.page-node-686016 .breadcrumb {
+    display: none;
+}
+
+.page-node-686016 ul.rslides.rslides1 {
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+}
+
+.page-node-686016 #header {
+    position: fixed;
+    top: 40px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.page-node-686016 #menu-bar {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    z-index: 1001;
+    background: transparent;
+}
+
+.page-node-686016 #menu-bar ul.nice-menu a,
+.page-node-686016 #menu-bar ul.nice-menu a:visited {
+    color: #fff;
+}
+
+.page-node-686016 #menu-bar ul.nice-menu .menu-depth-2 a {
+    color: #000;
+}
+
+.page-node-686016 ul.rslides.rslides1:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 10000;
+}
+
+.page-node-686016 ul.rslides.rslides1:after {
+    position: absolute;
+    display: block;
+    top: 50vh;
+    left: 50vw;
+    z-index: 10000;
+    font-size: 200px;
+    content: 'Generating better understanding of the links between accelerating global environmental change and human health to support robust policy making and public education around the world.';
+}
