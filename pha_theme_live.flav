@@ -13,4 +13,4 @@ css[]= css/slider.css
 
 
 scripts[] = js/pha_theme3.js
-scripts[] = js/responsiveslides.min.js
+;----------// scripts[] = js/responsiveslides.min.js
