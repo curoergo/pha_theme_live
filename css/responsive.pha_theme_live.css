@@ -36,10 +36,18 @@ div#block-boxes-1460120862 {
 }
 }
 
-@media (min-width:700px){
+@media (min-width:1100px){
 
 div#block-boxes-1460120862 {
     display: block;
+    width: 850px;
+    min-width: 850px !important;
+    margin-left: 200px;
+    position: static;
+    bottom: ;
+    right:0;
+    margin-right: 20px;
+        
 }
 }
 
