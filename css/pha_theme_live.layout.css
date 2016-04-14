@@ -257,3 +257,7 @@ div#boxes-box-1460650844 { display: block;
     }
 div#boxes-box-1460653819 {display: none}
 }
+
+.caption.slide-copy a{
+    font-family: copperplate;
+}
