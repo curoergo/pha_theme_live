@@ -28,6 +28,9 @@ div#block-boxes-1453068283 {margin-left: 10% !important}
 div#boxes-box-1460650844 {
     display: none;
 }
+
+div#boxes-box-1460653819 p{text-align: center}
+
 .region.region-header-first {
     min-width: 350px !important;
     display: block !important;
@@ -50,11 +53,6 @@ div#boxes-box-1460650844 { display: block;
     }
 div#boxes-box-1460653819 {display: none}
 }
-
-
-
-
-
 
 
 @media (max-width: 1008px) {
