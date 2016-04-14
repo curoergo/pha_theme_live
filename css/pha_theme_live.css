@@ -231,6 +231,10 @@ div#block-boxes-1453068283 {margin-left: 10% !important}
 
 @media (min-width:320px){
 
+.front span {
+    font-size: medium !important;
+}
+
 div#boxes-box-1460650844 {
     display: none;
 }

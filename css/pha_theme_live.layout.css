@@ -211,6 +211,10 @@ body {overflow: hidden; width: 100%;}
 
 @media (min-width:320px){
 
+	.front span {
+    font-size: medium !important;
+}
+
 div#block-boxes-1456322187 {margin-left: -55px;}}
 
 section#block-boxes-hwp-personal-contact-html {margin-left: 8%;}
