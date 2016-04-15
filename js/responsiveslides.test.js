@@ -195,7 +195,7 @@
                         var n = i + 1;
                         tabMarkup +=
                             "<li>" +
-                            "<a href='#' class='" + slideClassPrefix + n + "'>" + & bull; + "</a>" +
+                            "<a href='#' class='" + slideClassPrefix + n + "'>" + &bull; + "</a>" +
                         "</li>";
                     });
                     $pager.append(tabMarkup);
