@@ -60,9 +60,46 @@
 .page-node-686016 ul.rslides.rslides1:after {
     position: absolute;
     display: block;
-    top: 50vh;
-    left: 50vw;
+    top: 33vh;
+    left: 12.5vw;
+    width: 75vw;
     z-index: 10000;
-    font-size: 200px;
+    font-size: 60px;
+    color: #fff;
     content: 'Generating better understanding of the links between accelerating global environmental change and human health to support robust policy making and public education around the world.';
+}
+
+.page-node-686016 #header-container,
+.page-node-686016 #header {
+    background-color: transparent;
+}
+
+.page-node-686016 #file-3164311 {
+    width: 250px;
+}
+
+.page-node-686016 #file-3164311 img.image-style-os-files-xxlarge {
+    margin: 0;
+}
+
+.page-node-686016 #header-container,
+.page-node-686016 #header {
+    background-color: transparent;
+}
+
+.page-node-686016 ul.nice-menu-down li {
+    line-height: 100px;
+}
+
+.page-node-686016 ul.nice-menu-down li ul {
+    top: 7.3em;
+}
+
+.page-node-686016 ul.nice-menu-down li ul li {
+    line-height: 24px;
+}
+
+.page-node-686016 #menu-bar ul.nice-menu .menuparent {
+    padding: 0px;
+    margin: 0px;
 }
