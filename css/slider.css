@@ -1,15 +1,15 @@
 /* Alter template so the widget can be fullscreen and behind the logo and navigation */
 
-.page-node-686016 #content-column .content-inner {
+.front #content-column .content-inner {
     padding: 0px;
 }
 
-.page-node-686016 h1#page-title,
-.page-node-686016 .breadcrumb {
+.front h1#page-title,
+.front .breadcrumb {
     display: none;
 }
 
-.page-node-686016 #header {
+.front #header {
     position: fixed;
     top: 40px;
     left: 20px;
@@ -19,7 +19,7 @@
     transition: all 0.3s;
 }
 
-.page-node-686016 #menu-bar {
+.front #menu-bar {
     position: fixed;
     top: 40px;
     right: 20px;
@@ -30,41 +30,41 @@
     transition: all 0.3s;
 }
 
-.page-node-686016 #header-container,
-.page-node-686016 #header {
+.front #header-container,
+.front #header {
     background-color: transparent;
 }
 
-.page-node-686016 #block-os-pages-main-content {
+.front #block-os-pages-main-content {
     background-color: #A0DBA1;
 }
 
-.page-node-686016 #block-os-pages-main-content .field-name-body {
+.front #block-os-pages-main-content .field-name-body {
     max-width: 1170px;
     margin: auto;
     background: #fff;
 }
 
-.page-node-686016 #content-panels .block-inner,
+.front #content-panels .block-inner,
 .sidebar .block-inner {
     margin-top: 0px;
 }
 
-.page-node-686016 footer#footer {
+.front footer#footer {
     margin-top: 4em;
 }
 
 
 /* Logo image size */
 
-.page-node-686016 #file-3164311 {
+.front #file-3164311 {
     width: 250px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
 
-.page-node-686016 #file-3164311 img.image-style-os-files-xxlarge {
+.front #file-3164311 img.image-style-os-files-xxlarge {
     margin: 0;
 }
 
@@ -137,10 +137,10 @@ ul.slides {
 /* all phones logo size */
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .page-node-686016 #file-3164311 {
+    .front #file-3164311 {
         width: 150px;
     }
-    .page-node-686016 #header {
+    .front #header {
         position: absolute;
     }
 }
@@ -165,7 +165,7 @@ ul.slides {
     .flexslider-text-overlay {
         font-size: 2.5em;
     }
-    .page-node-686016 #header {
+    .front #header {
         position: absolute;
     }
 }
@@ -174,10 +174,10 @@ ul.slides {
 /* between 1009 and 1280px */
 
 @media only screen and (min-width: 1009px) and (max-width: 1280px) {
-    .page-node-686016 #file-3164311 {
+    .front #file-3164311 {
         width: 200px;
     }
-    .page-node-686016 ul.nice-menu-down li {
+    .front ul.nice-menu-down li {
         font-size: .8em;
     }
     .flexslider-text-overlay {
@@ -190,28 +190,28 @@ ul.slides {
 
 @media only screen and (min-width: 1009px) {
     /* Alter the menu look */
-    .page-node-686016 #menu-bar ul.nice-menu a,
-    .page-node-686016 #menu-bar ul.nice-menu a:visited {
+    .front #menu-bar ul.nice-menu a,
+    .front #menu-bar ul.nice-menu a:visited {
         color: #fff;
     }
-    .page-node-686016 #menu-bar ul.nice-menu .menu-depth-2 a {
+    .front #menu-bar ul.nice-menu .menu-depth-2 a {
         color: #000;
     }
-    .page-node-686016 ul.nice-menu-down li {
+    .front ul.nice-menu-down li {
         line-height: 100px;
     }
-    .page-node-686016 ul.nice-menu-down li ul {
+    .front ul.nice-menu-down li ul {
         top: 7.3em !important;
     }
-    .page-node-686016 ul.nice-menu-down li ul li {
+    .front ul.nice-menu-down li ul li {
         line-height: 24px;
     }
-    .page-node-686016 #menu-bar ul.nice-menu .menuparent {
+    .front #menu-bar ul.nice-menu .menuparent {
         padding: 0px;
         margin: 0px;
     }
     /* Header changes on scroll */
-    .page-node-686016 .page-wrapper-shrink #file-3164311 {
+    .front .page-wrapper-shrink #file-3164311 {
         width: 150px;
     }
     #page-wrapper:before {
@@ -229,11 +229,11 @@ ul.slides {
         top: 0;
         z-index: 999;
     }
-    .page-node-686016 .page-wrapper-shrink #menu-bar,
-    .page-node-686016 .page-wrapper-shrink #header {
+    .front .page-wrapper-shrink #menu-bar,
+    .front .page-wrapper-shrink #header {
         top: 10px;
     }
-    .page-node-686016 .page-wrapper-shrink ul.nice-menu-down li {
+    .front .page-wrapper-shrink ul.nice-menu-down li {
         font-size: 1em;
         line-height: 50px;
     }

@@ -9,10 +9,10 @@
 
 css[] = css/pha_theme_live.layout.css
 css[]= css/pha_theme_live.css
-css[]= css/flexslider2.css
-css[]= css/slider5.css
+css[]= css/flexslider.css
+css[]= css/slider.css
 
 
 scripts[] = js/classie.js
-scripts[] = js/pha_theme3.js
+scripts[] = js/pha_theme.js
 scripts[] = js/jquery.flexslider-min.js
