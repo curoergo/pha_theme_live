@@ -253,3 +253,20 @@ ul.slides {
         font-size: 4em;
     }
 }
+
+
+/* Fixes for admin to edit frontpage */
+
+.logged-in #block-boxes-1460577349 .contextual-links-wrapper.contextual-links-processed {
+    top: 50vh !important;
+    z-index: 1001 !important;
+}
+
+.logged-in #block-boxes-1460577349 .contextual-links-wrapper.contextual-links-processed:after {
+    content: 'Edit Slideshow';
+    width: 100px;
+    height: 100px;
+    top: 50vh;
+    background: #fff;
+    font-size: 2em;
+}
