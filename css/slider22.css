@@ -50,6 +50,10 @@
     margin-top: 0px;
 }
 
+.front #content-column .block {
+    margin-top: 0px;
+}
+
 .front footer#footer {
     margin-top: 4em;
 }
