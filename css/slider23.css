@@ -102,10 +102,7 @@
     z-index: 1;
 }
 
-.flexslider-container {
-    height: 100vh;
-    height: 100vh;
-}
+.flexslider-container {}
 
 .flexslider .slides,
 .flex-viewport {
