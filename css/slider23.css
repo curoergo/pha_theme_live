@@ -13,7 +13,7 @@
     position: fixed;
     top: 40px;
     left: 20px;
-    z-index: 1000;
+    z-index: 400;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -23,7 +23,7 @@
     position: fixed;
     top: 40px;
     right: 20px;
-    z-index: 1001;
+    z-index: 401;
     background: transparent;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -86,7 +86,7 @@
     height: 100vh;
     width: 100vw;
     background: rgba(0, 0, 0, 0.35);
-    z-index: 10000;
+    z-index: 498;
 }
 
 .flexslider .slides > li {
@@ -228,7 +228,7 @@ ul.slides {
         width: 100%;
         position: fixed;
         top: 0;
-        z-index: 999;
+        z-index: 399;
     }
     .front .page-wrapper-shrink #menu-bar,
     .front .page-wrapper-shrink #header {
@@ -260,7 +260,7 @@ ul.slides {
 
 .logged-in #block-boxes-1460577349 .contextual-links-wrapper.contextual-links-processed {
     top: 50vh !important;
-    z-index: 1001 !important;
+    z-index: 398 !important;
 }
 
 .logged-in #block-boxes-1460577349 .contextual-links-wrapper.contextual-links-processed:after {
