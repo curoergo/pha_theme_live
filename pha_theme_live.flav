@@ -13,5 +13,6 @@ css[]= css/flexslider2.css
 css[]= css/slider3.css
 
 
+scripts[] = js/classie.js
 scripts[] = js/pha_theme3.js
 scripts[] = js/jquery.flexslider-min.js
