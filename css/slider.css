@@ -10,6 +10,12 @@
     margin-bottom: 0;
 }
 
+.front .region-content-first .block,
+.front .region-content-second .block,
+.front .region-content-bottom .block {
+    margin-bottom: 0;
+}
+
 .front h1#page-title,
 .front .breadcrumb {
     display: none;
@@ -53,15 +59,15 @@
 
 .front #content-panels .block-inner,
 .sidebar .block-inner {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .front #content-column .block {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .front footer#footer {
-    margin-top: 4em;
+    margin-top: 0;
 }
 
 
@@ -132,18 +138,20 @@ ul.slides {
 .flexslider-text-overlay {
     position: absolute;
     display: block;
-    top: 150px;
-    left: 280px;
-    width: 27vw;
+    top: 27vh;
+    left: 12.5vw;
+    width: 75vw;
     z-index: 1;
-    height: calc(100vh - 150px);
-    color: #000;
-    background: rgba(255, 255, 255, .7);
+    color: #fff;
+    font-size: 1.5em;
 }
 
 .flexslider-text-overlay-inner {
-    padding: 20px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.flex-direction-nav {
+    display: none;
 }
 
 
@@ -194,7 +202,13 @@ ul.slides {
         font-size: .8em;
     }
     .flexslider-text-overlay {
-        font-size: 3em;
+        font-size: 1.6em;
+    }
+    .page-wrapper-shrink #menu-bar ul.nice-menu a {
+        font-size: 1.1em;
+    }
+    #menu-bar ul.nice-menu li {
+        margin-right: 0;
     }
 }
 
@@ -202,6 +216,21 @@ ul.slides {
 /* 1009px and above */
 
 @media only screen and (min-width: 1009px) {
+    .flexslider-text-overlay {
+        position: absolute;
+        display: block;
+        top: 150px;
+        left: 280px;
+        width: 27vw;
+        z-index: 1;
+        height: calc(100vh - 150px);
+        color: #000;
+        background: rgba(255, 255, 255, .85);
+    }
+    .flexslider-text-overlay-inner {
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
     /* Alter the menu look */
     .front #menu-bar ul.nice-menu a,
     .front #menu-bar ul.nice-menu a:visited {
@@ -219,11 +248,18 @@ ul.slides {
     .front ul.nice-menu-down li ul {
         top: 150px !important;
     }
+    .front .page-wrapper-shrink ul.nice-menu-down li ul {
+        top: 100px !important;
+    }
     .front ul.nice-menu-down li ul li {
         line-height: 24px;
     }
     .front #menu-bar ul.nice-menu .menuparent {
         padding: 0px;
+        margin: 0px;
+    }
+    .front #menu-bar ul.nice-menu a {
+        padding: 0 10px !important;
         margin: 0px;
     }
     /* Header changes on scroll */
@@ -252,13 +288,15 @@ ul.slides {
         top: 0;
         z-index: 399;
     }
-    .front .page-wrapper-shrink #menu-bar,
+    .front .page-wrapper-shrink #menu-bar {
+        top: 0px;
+    }
     .front .page-wrapper-shrink #header {
         top: 10px;
     }
-    .front .page-wrapper-shrink ul.nice-menu-down li {
+    .front .page-wrapper-shrink ul.nice-menu-down > li {
         font-size: 1em;
-        line-height: 50px;
+        line-height: 100px;
     }
     #menu-bar ul.nice-menu a {
         padding: 0 20px 0 20px;
@@ -295,4 +333,13 @@ ul.slides {
     top: 50vh;
     background: #fff;
     font-size: 2em;
+}
+
+
+/* override other css file */
+
+@media (min-width:320px) {
+    div#block-boxes-1456322187 {
+        margin-left: 0;
+    }
 }
