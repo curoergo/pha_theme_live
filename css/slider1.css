@@ -207,9 +207,6 @@ ul.slides {
     .page-wrapper-shrink #menu-bar ul.nice-menu a {
         font-size: 1.1em;
     }
-    #menu-bar ul.nice-menu li {
-        margin-right: 0;
-    }
 }
 
 
@@ -300,6 +297,9 @@ ul.slides {
     }
     #menu-bar ul.nice-menu a {
         padding: 0 20px 0 20px;
+    }
+    #menu-bar ul.nice-menu li {
+        margin-right: 0;
     }
 }
 
