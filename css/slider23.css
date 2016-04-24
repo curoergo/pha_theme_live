@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+.front #columns .region-inner {
+    margin-bottom: 0;
+}
+
 .front h1#page-title,
 .front .breadcrumb {
     display: none;
