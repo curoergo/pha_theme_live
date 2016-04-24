@@ -336,7 +336,7 @@ ul.slides {
 }
 
 .logged-in .flexslider-text-overlay {
-    height: calc(100vh - 183px);
+    top: 120px;
 }
 
 
