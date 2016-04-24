@@ -49,7 +49,7 @@ jQuery(document).ready(function ($) {
     $('.slides li img').remove();
 
     $('.flexslider').flexslider({
-        animation: "slide",
+        animation: "fade",
         controlNav: true,
         directionNav: true
     });
