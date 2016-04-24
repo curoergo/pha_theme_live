@@ -335,6 +335,10 @@ ul.slides {
     font-size: 2em;
 }
 
+.logged-in .flexslider-text-overlay {
+    height: calc(100vh - 183px);
+}
+
 
 /* override other css file */
 
