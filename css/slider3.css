@@ -87,7 +87,7 @@
 
 /* Flexslider styling */
 
-.flexslider .slides > li:before {
+.front .flexslider .slides > li:before {
     content: "";
     display: block;
     position: static;
@@ -101,7 +101,7 @@
     z-index: 498;
 }
 
-.flexslider .slides > li {
+.front .flexslider .slides > li {
     background-position: center;
     height: 100%;
     width: 100%;
@@ -114,19 +114,19 @@
     z-index: 1;
 }
 
-.flexslider-container {}
+.front .flexslider-container {}
 
-.flexslider .slides,
-.flex-viewport {
+.front .flexslider .slides,
+.front .flex-viewport {
     height: 100%;
 }
 
-ul.slides {
+.front ul.slides {
     margin: 0;
     padding: 0;
 }
 
-.flexslider {
+.front .flexslider {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -135,7 +135,7 @@ ul.slides {
     overflow: hidden;
 }
 
-.flexslider-text-overlay {
+.front .flexslider-text-overlay {
     position: absolute;
     display: block;
     top: 27vh;
@@ -146,11 +146,11 @@ ul.slides {
     font-size: 1.5em;
 }
 
-.flexslider-text-overlay-inner {
+.front .flexslider-text-overlay-inner {
     font-family: 'Open Sans', sans-serif;
 }
 
-.flex-direction-nav {
+.front .flex-direction-nav {
     display: none;
 }
 
@@ -171,7 +171,7 @@ ul.slides {
 
 @media only screen and (min-height: 320px) and (max-height: 480px) {
     /* logo size */
-    .flexslider-text-overlay {
+    .front .flexslider-text-overlay {
         font-size: 1.2em;
     }
 }
@@ -180,13 +180,13 @@ ul.slides {
 /* between 768 and 1008 */
 
 @media only screen and (min-width: 768px) and (max-width: 1008px) {
-    .hg-container {
+    .front .hg-container {
         padding: 0 !important;
     }
-    .flexslider-text-overlay {
+    .front .flexslider-text-overlay {
         font-size: 2.5em;
     }
-    .front #header {
+    .front .front #header {
         position: absolute;
     }
 }
@@ -201,10 +201,10 @@ ul.slides {
     .front ul.nice-menu-down li {
         font-size: .8em;
     }
-    .flexslider-text-overlay {
+    .front .flexslider-text-overlay {
         font-size: 1.6em;
     }
-    .page-wrapper-shrink #menu-bar ul.nice-menu a {
+    .front .page-wrapper-shrink #menu-bar ul.nice-menu a {
         font-size: 1.1em;
     }
 }
@@ -213,7 +213,7 @@ ul.slides {
 /* 1009px and above */
 
 @media only screen and (min-width: 1009px) {
-    .flexslider-text-overlay {
+    .front .flexslider-text-overlay {
         position: absolute;
         display: block;
         top: 150px;
@@ -224,7 +224,7 @@ ul.slides {
         color: #000;
         background: rgba(255, 255, 255, .5);
     }
-    .flexslider-text-overlay-inner {
+    .front .flexslider-text-overlay-inner {
         padding: 20px;
         font-family: 'Open Sans', sans-serif;
     }
@@ -263,7 +263,7 @@ ul.slides {
     .front .page-wrapper-shrink #file-3164311 {
         width: 150px;
     }
-    #page-wrapper:before {
+    .front #page-wrapper:before {
         background: transparent;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
@@ -276,7 +276,7 @@ ul.slides {
         top: 0;
         z-index: 399;
     }
-    #page-wrapper.page-wrapper-shrink:before {
+    .front #page-wrapper.page-wrapper-shrink:before {
         content: '';
         background: #000;
         height: 100px;
@@ -295,10 +295,10 @@ ul.slides {
         font-size: 1em;
         line-height: 100px;
     }
-    #menu-bar ul.nice-menu a {
+    .front #menu-bar ul.nice-menu a {
         padding: 0 20px 0 20px;
     }
-    #menu-bar ul.nice-menu li {
+    .front #menu-bar ul.nice-menu li {
         margin-right: 0;
     }
 }
@@ -307,13 +307,13 @@ ul.slides {
 /* Large screen main text */
 
 @media only screen and (min-width: 1281px) {
-    .flexslider-text-overlay {
+    .front .flexslider-text-overlay {
         font-size: 2.5em;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .flexslider-text-overlay {
+    .front .flexslider-text-overlay {
         font-size: 2.5em;
     }
 }
@@ -343,7 +343,7 @@ ul.slides {
 /* override other css file */
 
 @media (min-width:320px) {
-    div#block-boxes-1456322187 {
+    .front div#block-boxes-1456322187 {
         margin-left: 0;
     }
 }
