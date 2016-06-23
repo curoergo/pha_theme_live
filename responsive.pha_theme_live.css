@@ -109,6 +109,10 @@ ul.primary li a {
     margin-top: 10px;
 }
 
+@media (min-width:1280px){
+    .flexslider-text-overlay-inner {font-size: 30px}
+}
+
 /*Dropdown menu*/
 #menu-bar #block-os-primary-menu li {
     border-bottom: 1px solid #CCC !important;

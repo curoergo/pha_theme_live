@@ -290,3 +290,7 @@ div#boxes-box-1460653819 {display: none}
 .caption.slide-copy a{
     font-family: copperplate;
 }
+
+@media (min-width:1280px){
+    .flexslider-text-overlay-inner {font-size: 30px}
+}
