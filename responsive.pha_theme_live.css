@@ -124,6 +124,14 @@ padding-left: 0px;
 padding-right: 0px;
 }}
 
+@media (max-height: 475px ){
+    .flexslider-text-overlay-inner {font-size: 20px !important}
+}
+
+@media (max-height: 799px ){
+    .flexslider-text-overlay-inner {font-size: 25px}
+}
+
 /*Dropdown menu*/
 #menu-bar #block-os-primary-menu li {
     border-bottom: 1px solid #CCC !important;
