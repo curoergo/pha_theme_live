@@ -300,3 +300,5 @@ div#boxes-box-1460653819 {display: none}
 @media (max-height: 799px ){
     .flexslider-text-overlay-inner {font-size: 25px}
 }
+
+.flexslider-text-overlay-inner {font-family: copperplate !important}
