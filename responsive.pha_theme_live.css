@@ -166,6 +166,18 @@ padding-right: 0px;
 
 }
 
+    .front .flexslider-text-overlay {
+        position: absolute;
+        display: block;
+        top: 150px;
+        left: 280px;
+        width: 27vw;
+        z-index: 10;
+        height: calc(100vh - 150px);
+        color: #fff !important;
+        background: rgba(0, 0, 0, .5);
+    }
+
 /*--------------------------------------------------------*/
 @media (max-width: 768px) {
 .front #content-column .block.block-boxes-os_boxes_manual_list {
