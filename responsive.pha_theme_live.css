@@ -110,7 +110,7 @@ ul.primary li a {
 }
 
 @media (min-width:1280px){
-    .flexslider-text-overlay-inner {font-size: 30px}
+    .flexslider-text-overlay-inner {font-size: 30px !important}
 }
 @media(max-width:500px){
     div#boxes-box-1456322187 {

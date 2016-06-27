@@ -290,7 +290,7 @@ div#boxes-box-1460653819 {display: none}
 }
 
 @media (min-width:1280px){
-    .flexslider-text-overlay-inner {font-size: 30px}
+    .flexslider-text-overlay-inner {font-size: 30px !important}
 }
 
 @media (max-height: 475px ){
