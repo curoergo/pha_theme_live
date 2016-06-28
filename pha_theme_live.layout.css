@@ -303,6 +303,10 @@ div#boxes-box-1460653819 {display: none}
 
 .flexslider-text-overlay-inner {font-family: copperplate !important}
 
+ @media(min-width: 1010px){
+
+.flexslider-text-overlay-inner {font-family: copperplate !important}
+
     .front .flexslider-text-overlay {
         position: absolute;
         display: block;
@@ -313,4 +317,6 @@ div#boxes-box-1460653819 {display: none}
         height: calc(100vh - 150px);
         color: #fff !important;
         background: rgba(0, 0, 0, .5) !important;
+        margin-left: -280px;
     }
+}
