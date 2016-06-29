@@ -167,11 +167,9 @@ padding-right: 0px;
 }
 
 
-.flexslider-text-overlay-inner {font-family: copperplate !important}
 
 @media(min-width: 1010px){
 
-.flexslider-text-overlay-inner {font-family: copperplate !important}
 
     .front .flexslider-text-overlay {
         position: absolute;

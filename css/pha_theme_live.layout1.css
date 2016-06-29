@@ -301,11 +301,10 @@ div#boxes-box-1460653819 {display: none}
     .flexslider-text-overlay-inner {font-size: 25px}
 }
 
-.flexslider-text-overlay-inner {font-family: copperplate !important}
+
 
  @media(min-width: 1010px){
 
-.flexslider-text-overlay-inner {font-family: copperplate !important}
 
     .front .flexslider-text-overlay {
         position: absolute;
