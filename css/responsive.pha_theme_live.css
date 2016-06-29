@@ -4,8 +4,6 @@ body {overflow: hidden; width: 100%;}
 
 @media (min-width:320px){
 
-div#block-boxes-1456322187 {margin-left: -55px;}}
-
 section#block-boxes-hwp-personal-contact-html {margin-left: 8%;}
 
 #footer img.image-style-os-files-xxlarge {margin-top: -15px; max-width: 200px; float: left; position: relative; left: 10%}
@@ -44,6 +42,18 @@ div#boxes-box-1460653819 p{text-align: center}}
     display: block !important;
     margin-top: -3%
     }}
+
+    @media(max-width:500px){
+    div#boxes-box-1456322187 {
+    width: 90% !important; 
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: left; 
+    margin-top:25px; 
+background-color: #ffffff;
+padding-left: 0px;
+padding-right: 0px;
+}}
 
 @media (min-width:1100px){
 .region.region-header-first {
@@ -99,6 +109,29 @@ ul.primary li a {
     margin-top: 10px;
 }
 
+@media (min-width:1280px){
+    .flexslider-text-overlay-inner {font-size: 30px !important}
+}
+@media(max-width:500px){
+    div#boxes-box-1456322187 {
+    width: 90% !important; 
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: left; 
+    margin-top:25px; 
+background-color: #ffffff;
+padding-left: 0px;
+padding-right: 0px;
+}}
+
+@media (max-height: 475px ){
+    .flexslider-text-overlay-inner {font-size: 20px !important}
+}
+
+@media (max-height: 799px ){
+    .flexslider-text-overlay-inner {font-size: 25px}
+}
+
 /*Dropdown menu*/
 #menu-bar #block-os-primary-menu li {
     border-bottom: 1px solid #CCC !important;
@@ -133,6 +166,27 @@ ul.primary li a {
 
 }
 
+
+.flexslider-text-overlay-inner {font-family: copperplate !important}
+
+@media(min-width: 1010px){
+
+.flexslider-text-overlay-inner {font-family: copperplate !important}
+
+    .front .flexslider-text-overlay {
+        position: absolute;
+        display: block;
+        top: 150px;
+        left: 280px;
+        width: 27vw;
+        z-index: 10;
+        height: calc(100vh - 150px);
+        color: #fff !important;
+        background: rgba(0, 0, 0, .5) !important;
+        margin-left: -280px;
+    }
+}
+
 /*--------------------------------------------------------*/
 @media (max-width: 768px) {
 .front #content-column .block.block-boxes-os_boxes_manual_list {
@@ -151,3 +205,5 @@ ul.primary li a {
         margin-top: 10px!important;
 }
 }
+
+.flexslider-text-overlay-inner {font-family: copperplate !important}
