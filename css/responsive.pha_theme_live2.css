@@ -153,11 +153,11 @@ padding-right: 0px;
     background: #777;
 }
 #menu-bar ul.nice-menu a.active, #menu-bar ul.nice-menu a:hover {
-    background: #777;
+    background: #1E2540;
 }
 #menu-bar #block-os-primary-menu a:hover,
 #menu-bar #block-os-primary-menu a:focus{
-    background-color:#777 !important;
+    background-color:#1E2540 !important;
 }
 
 .region-header-third ul.nice-menu a {

@@ -119,7 +119,9 @@ div#block-boxes-1456322187 {background: #A0DBA1; padding: 0px; padding-top: 75px
 #menu-bar ul.nice-menu ul:hover{color: #ffffff !important}
 
 
-
+#menu-bar ul.nice-menu a.active, #menu-bar ul.nice-menu a:hover {
+    background: #1E2540 !important;
+}
 
 
 #menu-bar ul.nice-menu .menuparent > a:before{display: none}
@@ -310,7 +312,7 @@ div#boxes-box-1460653819 {display: none}
     color: #000000;
     text-decoration: none;
     font-size: 1.1em;
-    font-family: gotham medium;
+    font-family: gotham medium !important;
     text-transform: uppercase;
 }
 
