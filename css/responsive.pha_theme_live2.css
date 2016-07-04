@@ -187,7 +187,7 @@ padding-right: 0px;
         display: block;
         top: 150px;
         left: 280px;
-        width: 70vw;
+        width: 70vw !important;
         z-index: 10;
         height: calc(100vh - 150px);
         color: #fff !important;

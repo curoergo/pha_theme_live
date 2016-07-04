@@ -219,7 +219,7 @@
         display: block;
         top: 160px;
         left: 280px;
-        width: 70vw;
+        width: 70vw !important;
         z-index: 10;
         height: calc(100vh - 150px);
         color: #fff !important;
