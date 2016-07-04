@@ -7,8 +7,8 @@
 
 ;----------// Stylesheets
 
-css[]= css/pha_theme_live.layout2.css_704.css
-css[]= css/pha_theme_live2.css_704.css
+css[]= css/pha_theme_live.layout.css
+css[]= css/pha_theme_live.css
 css[]= css/flexslider.css
 css[]= css/slider.css
 
