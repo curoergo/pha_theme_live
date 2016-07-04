@@ -33,12 +33,13 @@ img.image-style-os-files-xxlarge {
 
 
 
-#menu-bar ul.nice-menu a,
+    #menu-bar ul.nice-menu a,
 #menu-bar ul.nice-menu a:visited {
     color: #000000;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-family: gotham medium !important;
+    text-transform: uppercase;
 }
 
 .front.branding-container, #header-container, #columns, #menu-bar #block-os-primary-menu, #footer.gpanel, .region-footer, .message-inner, #powerby-login {
@@ -107,7 +108,6 @@ div#block-boxes-1456322187 {background: #A0DBA1; padding: 0px; padding-top: 75px
 
 
 
-#menu-bar ul.nice-menu a:hover{color: #ffffff !important}
 
 #menu-bar ul.nice-menu .menuparent.over > a,
 
@@ -308,9 +308,9 @@ div#boxes-box-1460653819 {display: none}
 .front .flexslider-text-overlay {
         position: absolute;
         display: block;
-        top: 150px;
+        top: 160px;
         left: 280px;
-        width: 70vw;
+        width: 70vw !important;
         z-index: 10;
         height: calc(100vh - 150px);
         color: #fff !important;
