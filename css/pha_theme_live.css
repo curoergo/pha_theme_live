@@ -324,3 +324,18 @@ div#boxes-box-1460653819 {display: none}
 @media (min-width: 1150px){
     .flexslider-text-overlay-inner span {font-size: 20px !important;}
 }
+
+    @media(max-width: 1009px){    
+    .front #page-wrapper:before {
+        background: transparent;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        content: '';
+        background: rgba(0, 0, 0, 0) !important;
+        height: 150px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 399;
+    }}
