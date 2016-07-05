@@ -296,7 +296,7 @@
         top: 10px;
     }
     .front .page-wrapper-shrink ul.nice-menu-down > li {
-        font-size: 1em;
+        font-size: .8em;
         line-height: 100px;
     }
     .front #menu-bar ul.nice-menu a {
@@ -357,3 +357,8 @@
         line-height: 20px !important;
     }
 }
+
+  .front .page-wrapper-shrink ul.nice-menu-down > li {
+        font-size: .8em !important;
+        line-height: 100px;
+    }
