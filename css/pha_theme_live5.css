@@ -309,7 +309,7 @@ div#boxes-box-1460653819 {display: none}
 .front .flexslider-text-overlay {
         position: absolute;
         display: block;
-        top: 160px;
+        top: 160px !important;
         left: 280px;
         width: 70vw !important;
         z-index: 10;
