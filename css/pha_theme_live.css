@@ -339,3 +339,7 @@ div#boxes-box-1460653819 {display: none}
         top: 0;
         z-index: 399;
     }}
+
+    #menu-bar ul.nice-menu a.active, #menu-bar ul.nice-menu a:hover {
+    background: #1E2540 !important;
+}
