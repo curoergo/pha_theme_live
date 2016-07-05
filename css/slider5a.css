@@ -359,6 +359,14 @@
 }
 
   .front .page-wrapper-shrink ul.nice-menu-down > li {
-        font-size: .8em !important;
+        font-size: .8em;
         line-height: 100px;
     }
+
+      @media (min-width: 1180px){
+ .front .page-wrapper-shrink ul.nice-menu-down > li {
+        font-size: 1em;
+        line-height: 100px;
+    }
+      
+  }
