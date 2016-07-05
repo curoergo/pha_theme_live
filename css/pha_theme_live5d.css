@@ -370,3 +370,19 @@ a.active-trail.active.active {font-family: gotham!important}
 }
 }
 
+@media (min-width: 769px) and (max-width: 1008px){
+.front .flexslider-text-overlay {
+        position: absolute;
+        display: block;
+        top: 200px !important;
+        left: 280px;
+        width: 70vw !important;
+        z-index: 10;
+        height: calc(100vh - 150px);
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0) !important;
+        margin-left: -280px;
+    }
+    
+}
+
