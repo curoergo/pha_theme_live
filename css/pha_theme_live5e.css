@@ -375,7 +375,7 @@ a.active-trail.active.active {font-family: gotham!important}
         position: absolute;
         display: block;
         top: 200px !important;
-        left: 280px;
+        left: 280px !important;
         width: 70vw !important;
         z-index: 10;
         height: calc(100vh - 150px);
