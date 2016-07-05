@@ -1,0 +1,372 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Alter template so the widget can be fullscreen and behind the logo and navigation */
+
+.front #content-column .content-inner {
+    padding: 0px;
+}
+
+.front #columns .region-inner {
+    margin-bottom: 0;
+}
+
+.front .region-content-first .block,
+.front .region-content-second .block,
+.front .region-content-bottom .block {
+    margin-bottom: 0;
+}
+
+.front h1#page-title,
+.front .breadcrumb {
+    display: none;
+}
+
+.front #header {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    z-index: 400;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.front #menu-bar {
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    z-index: 401;
+    background: transparent;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.front #header-container,
+.front #header {
+    background-color: transparent;
+}
+
+.front #block-os-pages-main-content {
+    background-color: #A0DBA1;
+}
+
+.front #block-os-pages-main-content .field-name-body {
+    max-width: 1170px;
+    margin: auto;
+    background: #fff;
+}
+
+.front #content-panels .block-inner,
+.sidebar .block-inner {
+    margin-top: 0;
+}
+
+.front #content-column .block {
+    margin-top: 0;
+}
+
+.front footer#footer {
+    margin-top: 0;
+}
+
+
+/* Logo image size */
+
+.front #file-3164311 {
+    width: 250px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.front #file-3164311 img.image-style-os-files-xxlarge {
+    margin: 0;
+}
+
+
+/* Flexslider styling */
+
+.front .flexslider .slides > li:before {
+    content: "";
+    display: block;
+    position: static;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 498;
+}
+
+.front .flexslider .slides > li {
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: none;
+    -webkit-backface-visibility: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+}
+
+.front .flexslider-container {}
+
+.front .flexslider .slides,
+.front .flex-viewport {
+    height: 100%;
+}
+
+.front ul.slides {
+    margin: 0;
+    padding: 0;
+}
+
+.front .flexslider {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    overflow: hidden;
+}
+
+.front .flexslider-text-overlay {
+    position: absolute;
+    display: block;
+    top: 27vh;
+    left: 12.5vw;
+    width: 75vw;
+    z-index: 10;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.front .flexslider-text-overlay-inner {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.front .flex-direction-nav {
+    display: none;
+}
+
+
+/* all phones logo size */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .front #file-3164311 {
+        width: 150px;
+    }
+    .front #header {
+        position: absolute;
+    }
+}
+
+
+/* phone portrait and iphone 4 fix */
+
+@media only screen and (min-height: 320px) and (max-height: 480px) {
+    /* logo size */
+    .front .flexslider-text-overlay {
+        font-size: 1.2em;
+    }
+}
+
+
+/* between 768 and 1008 */
+
+@media only screen and (min-width: 768px) and (max-width: 1008px) {
+    .front .hg-container {
+        padding: 0 !important;
+    }
+    .front .flexslider-text-overlay {
+        font-size: 2.5em;
+    }
+    .front .front #header {
+        position: absolute;
+    }
+}
+
+
+/* between 1009 and 1280px */
+
+@media only screen and (min-width: 1009px) and (max-width: 1280px) {
+    .front #file-3164311 {
+        width: 200px;
+    }
+    .front ul.nice-menu-down li {
+        font-size: .8em;
+    }
+    .front .flexslider-text-overlay {
+        font-size: 1.6em;
+    }
+    .front .page-wrapper-shrink #menu-bar ul.nice-menu a {
+        font-size: 1.1em;
+    }
+}
+
+
+/* 1009px and above */
+
+@media (min-width: 1009px){
+
+.front .flexslider-text-overlay {
+        position: absolute;
+        display: block;
+        top: 160px;
+        left: 280px;
+        width: 70vw !important;
+        z-index: 10;
+        height: calc(100vh - 150px);
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0) !important;
+        margin-left: -280px;
+    }
+
+}
+    .front .flexslider-text-overlay-inner {
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* Alter the menu look */
+    .front #menu-bar ul.nice-menu a,
+    .front #menu-bar ul.nice-menu a:visited {
+        color: #fff;
+    }
+    .front #menu-bar ul.nice-menu .menu-depth-2 a {
+        color: #000;
+    }
+    .front #menu-bar {
+        padding: 0;
+    }
+    .front ul.nice-menu-down li {
+        line-height: 150px;
+    }
+    .front ul.nice-menu-down li ul {
+        top: 150px !important;
+    }
+    .front .page-wrapper-shrink ul.nice-menu-down li ul {
+        top: 100px !important;
+    }
+    .front ul.nice-menu-down li ul li {
+        line-height: 24px;
+    }
+    .front #menu-bar ul.nice-menu .menuparent {
+        padding: 0px;
+        margin: 0px;
+    }
+    .front #menu-bar ul.nice-menu a {
+        padding: 0 10px !important;
+        margin: 0px;
+    }
+    /* Header changes on scroll */
+    .front .page-wrapper-shrink #file-3164311 {
+        width: 150px;
+    }
+    .front #page-wrapper:before {
+        background: transparent;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        content: '';
+        background: rgba(0, 0, 0, .5);
+        height: 150px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 399;
+    }
+    .front #page-wrapper.page-wrapper-shrink:before {
+        content: '';
+        background: #000;
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 399;
+    }
+    .front .page-wrapper-shrink #menu-bar {
+        top: 0px;
+    }
+    .front .page-wrapper-shrink #header {
+        top: 10px;
+    }
+    .front .page-wrapper-shrink ul.nice-menu-down > li {
+        font-size: .8em;
+        line-height: 100px;
+    }
+    .front #menu-bar ul.nice-menu a {
+        padding: 0 20px 0 20px;
+    }
+    .front #menu-bar ul.nice-menu li {
+        margin-right: 0;
+    }
+}
+
+
+/* Large screen main text */
+
+@media only screen and (min-width: 1281px) {
+    .front .flexslider-text-overlay {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .front .flexslider-text-overlay {
+        font-size: 2.5em;
+    }
+}
+
+
+/* Fixes for admin to edit frontpage */
+
+.logged-in #block-boxes-1460577349 .contextual-links-wrapper.contextual-links-processed {
+    top: 50vh !important;
+    z-index: 398 !important;
+}
+
+.logged-in #block-boxes-1460577349 .contextual-links-wrapper.contextual-links-processed:after {
+    content: 'Edit Slideshow';
+    width: 100px;
+    height: 100px;
+    top: 50vh;
+    background: #fff;
+    font-size: 2em;
+}
+
+.logged-in .flexslider-text-overlay {
+    top: 120px;
+}
+
+
+/* override other css file */
+
+@media (min-width:320px) {
+    .front div#block-boxes-1456322187 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1008px){
+     .front ul.nice-menu-down li {
+        line-height: 20px !important;
+    }
+}
+
+  .front .page-wrapper-shrink ul.nice-menu-down > li {
+        font-size: .8em;
+        line-height: 100px;
+    }
+
+      @media (min-width: 1180px){
+ .front .page-wrapper-shrink ul.nice-menu-down > li {
+        font-size: 1em;
+        line-height: 100px;
+    }
+      
+  }
