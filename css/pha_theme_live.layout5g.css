@@ -40,7 +40,7 @@ img.image-style-os-files-xxlarge {
     color: #000000;
     text-decoration: none;
     font-size: 1.1em;
-    font-family: gotham !important;
+    font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
 }
 
@@ -102,7 +102,7 @@ padding-right: 15px;
 
 p{padding: 10px}
 
-h1#page-title, h1, h2, h3 {font-weight:100; font-family: gotham; font-size: xx-large; text-transform: uppercase;}
+h1#page-title, h1, h2, h3 {font-weight:100; font-family: 'Montserrat', sans-serif; font-size: xx-large; text-transform: uppercase;}
 
 #content-column .content-inner {background-color: #ffffff;}
 
@@ -142,7 +142,7 @@ margin-top: -1%;
 section#block-boxes-hwp-personal-contact-html {
     color: #000000; 
 
-font-family: gotham medium;
+font-family: 'Montserrat', sans-serif medium;
 
 }
 
@@ -150,7 +150,7 @@ font-family: gotham medium;
 
 a.feed-icon {
     color: #000000; 
-font-family:gotham medium;
+font-family:'Montserrat', sans-serif medium;
 
 }
 
@@ -158,7 +158,7 @@ font-family:gotham medium;
 
 div#boxes-box-1458163296 {
     color: #000000;
-font-family:gotham medium;
+font-family:'Montserrat', sans-serif medium;
     }
 
 
@@ -205,7 +205,7 @@ img.image-style-os-files-xxlarge {margin-top: 50px;}
 
    a {text-decoration: none !important}
 
- #header p{font-size: 21px; font-family: gotham medium; text-align: left;}
+ #header p{font-size: 21px; font-family: 'Montserrat', sans-serif medium; text-align: left;}
 
  img.image-style-os-slideshow-31-980 {min-width:980px !important;}
 
@@ -288,7 +288,7 @@ div#boxes-box-1460653819 {display: none}
 }
 
 .caption.slide-copy a{
-    font-family: gotham medium;
+    font-family: 'Montserrat', sans-serif medium;
 }
 
 @media (min-width:1280px){
@@ -303,7 +303,7 @@ div#boxes-box-1460653819 {display: none}
     .flexslider-text-overlay-inner {font-size: 25px}
 }
 
-.flexslider-text-overlay-inner {font-family: gotham medium !important}
+.flexslider-text-overlay-inner {font-family: 'Montserrat', sans-serif medium !important}
 
  @media (min-width: 1009px){
 
